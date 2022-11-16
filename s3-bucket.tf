@@ -3,6 +3,7 @@ module "s3_bucket" {
   version = "2.8.0"
 
   bucket = "Gaurav"
+  bucket_prefix = "dniquwgd126g"
   acl    = "private"
 
   versioning = {
